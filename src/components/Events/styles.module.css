@@ -1,0 +1,59 @@
+.day {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 50%;
+  /* background-color: #eee; */
+}
+
+.weekday {
+  font-weight: bold;
+  /* background-color: transparent; */
+}
+
+.inactive {
+  color: #ccc;
+  /* background-color: transparent; */
+}
+
+.primary {
+  background-color: hsl(171, 100%, 41%);
+  color: white;
+}
+
+.info {
+  background-color: hsl(204, 86%, 53%);
+  color: white;
+}
+
+.link {
+  background-color: hsl(217, 71%, 53%);
+  color: white;
+}
+
+.success {
+  background-color: hsl(141, 53%, 53%);
+  color: white;
+}
+
+.warning {
+  background-color: hsl(48, 100%, 67%);
+}
+
+.danger {
+  background-color: hsl(348, 100%, 61%);
+  color: white;
+}
+
+.cardDay {
+  text-align: center;
+  background-color: #eee;
+  line-height: normal;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  color: #555;
+  padding-top: 5px;
+}
