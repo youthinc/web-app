@@ -1,0 +1,83 @@
+interface Options {
+  [key: string]: string;
+}
+
+export const type: Options = {
+  a: "Companies/Business Entities",
+  b: "Embassies",
+  c: "Government Entities",
+  d: "International Organizations",
+  e: "International Youth Network",
+  f: "Media",
+  g: "National Youth Network",
+  h: "NGO/Association",
+  i: "Research/Think Tank",
+  j: "Schools/Universities",
+};
+
+export const sector: Options = {
+  a: "Accounting/Auditing",
+  b: "Agriculture",
+  c: "Arts & Crafts",
+  d: "Banking & Finance",
+  e: "Commodities trading",
+  f: "Construction",
+  g: "Consulting",
+  h: "Diplomatic - IR",
+  i: "Education & Training",
+  j: "Energy",
+  k: "Engineering/Equipment",
+  l: "Environment/Resources",
+  m: "Financial services",
+  n: "Food & Beverages & Catering",
+  o: "Freight forwarding",
+  p: "Healthcare",
+  q: "Hotel & Hospitality",
+  r: "Households",
+  s: "Human resource",
+  t: "Information Technology",
+  u: "Insurance",
+  v: "Internet & E-Commerce",
+  w: "Law and legal advisory/consulting",
+  x: "Management",
+  y: "Manufacturing",
+  z: "Marketing & Advertising",
+  za: "Media & Entertainment",
+  zb: "Medical/Pharmaceutical",
+  zc: "Mining (exploration and production)",
+  zd: "Mining Services/Supplier",
+  ze: "Oil & Gas",
+  zf: "Real Estate",
+  zg: "Safety",
+  zh: "Services",
+  zi: "Software systems, ITC",
+  zj: "Telecommunication & Network",
+  zk: "Travel & Tourism",
+  zl: "Transport/Logistics",
+};
+
+export const location: Options = {
+  a: "Mongolia, Ulaanbaatar",
+  b: "Mongolia - East Province",
+  c: "Mongolia - West Province",
+  d: "Mongolia - North",
+  e: "Mongolia - Gobi",
+  f: "International, Asia",
+  g: "International, Africa",
+  h: "International, Europe",
+  i: "International, Australia",
+  j: "International, North America",
+  k: "International, South America",
+  l: "International, Antarctica",
+};
+
+export const employees: Options = {
+  a: "Self Employed",
+  b: "1-10",
+  c: "11-50",
+  d: "51-100",
+  e: "101-200",
+  f: "201-500",
+  g: "501-1000",
+  h: "1001+",
+};
